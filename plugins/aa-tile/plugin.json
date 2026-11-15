@@ -1,0 +1,23 @@
+{
+  "id": "aa-tile",
+  "name": "Android Auto tile",
+  "version": "5.0.0",
+  "kind": "program",
+  "binary": "aa-tile",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "notice": "Required Notice: Copyright (c) 2026 nanaisu - NBT-AAD (https://github.com/Sq00ky/Supra-iDrive6-Android-Auto)",
+  "summary": "Home-screen tile that brings Android Auto to the front. Catalog version 5.0.0 tracks upstream build 5.",
+  "upstream": {
+    "repository": "deathwalker80/nbt-aa-tile",
+    "tag": "v5"
+  },
+  "assets": [
+    {
+      "name": "nbt-aa-tile-5.zip",
+      "sha256": "9604adac6f7772e0a4e8dc231e43038e6fb945721ad3e4f8366fde68f5de57b2",
+      "members": {
+        "nbt-aa-tile/aa-tile": "aa-tile"
+      }
+    }
+  ]
+}

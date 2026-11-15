@@ -1,0 +1,32 @@
+{
+  "id": "aa",
+  "name": "Android Auto",
+  "version": "1.9.38",
+  "kind": "android-auto",
+  "packageId": "NbtAad",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "notice": "Required Notice: Copyright (c) 2026 nanaisu - NBT-AAD (https://github.com/Sq00ky/Supra-iDrive6-Android-Auto)",
+  "summary": "Native wireless Android Auto for NBT Evo: the daemon and the iDrive plugin from one upstream release.",
+  "upstream": {
+    "repository": "Sq00ky/Supra-iDrive6-Android-Auto",
+    "tag": "brwsr-ap"
+  },
+  "assets": [
+    {
+      "name": "nbt-aad",
+      "sha256": "dd7c32d8963cc3cd032eb23aa8de33a195ef3e6f5cfa4516003dc7a16626855d",
+      "dest": "nbt-aad"
+    },
+    {
+      "name": "Releases.zip",
+      "sha256": "029d47019c14787b417d80703c5c3486512989e83d7e8df72363849cf0d71d32",
+      "members": {
+        "Releases/libNbtAad.so": "libNbtAad.so",
+        "Releases/NbtAad.manifest": "NbtAad.manifest",
+        "Releases/NbtAad.xml": "NbtAad.xml",
+        "Releases/NbtAad_ALL_Texts.zip": "NbtAad_ALL_Texts.zip",
+        "Releases/NbtAad_ALL_Images.zip": "NbtAad_ALL_Images.zip"
+      }
+    }
+  ]
+}
